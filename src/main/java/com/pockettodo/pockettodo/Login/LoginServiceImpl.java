@@ -6,4 +6,8 @@ public class LoginServiceImpl implements LoginService {
         // TODO: Integrate auth0 SSO for seamless login
         return "login successful";
     }
+
+    public Boolean createUser() {
+        return true;
+    }
 }

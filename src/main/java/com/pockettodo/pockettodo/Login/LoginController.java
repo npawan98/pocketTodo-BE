@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class LoginController {
 
     LoginService loginService = new LoginServiceImpl();
-    @PostMapping("Login")
+    @PostMapping("/login")
     public String login() {
         return loginService.login();
     }

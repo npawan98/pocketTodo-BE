@@ -9,4 +9,9 @@ public class LoginController {
     public String login() {
         return loginService.login();
     }
+
+    @PostMapping("/createUser")
+    public Boolean createUser() {
+        return loginService.createUser();
+    }
 }
